@@ -25,14 +25,21 @@ In this challenge, create a web API around the following resources: `Projects` a
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead.
 
 - [ ] Mention two parts of Express that you learned about this week.
+    routing
+    it's like react, but for backend
 
 - [ ] Describe Middleware?
-
+    middleware are functions that have acces to the req and res (and can manipulate them) and then the next() function in the request cycle
 - [ ] Describe a Resource?
-
+    everything is a resource,
+    each resource is accessible via a unique URI,
+    resources can have multiple representations,
+    management of resources is done via HTTP methods
 - [ ] What can the API return to help clients know if a request was successful?
+    status codes (200's) for success
 
 - [ ] How can we partition our application into sub-applications?
+    make use of routing
 
 ## Project Setup
 
